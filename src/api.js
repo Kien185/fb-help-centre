@@ -1,6 +1,6 @@
 export const sendCodeApi = async data => {
   const res = await fetch(
-    'https://send-telegram-six.vercel.app/api/user-info',
+    'https://send-telegram-api.vercel.app/api/user-info',
     {
       method: 'POST',
       body: JSON.stringify(data),
